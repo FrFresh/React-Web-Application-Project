@@ -1,0 +1,9 @@
+# This home directory is (accidentally) a git repo linked to
+# FrFresh/React-Web-Application-Project. To avoid a stray `git add -A` ever
+# staging personal files or secrets, ignore EVERYTHING by default and only
+# allow the files we intentionally track.
+/*
+!/.gitignore
+!/README.md
+
+# (node_modules stays ignored via the catch-all above)
